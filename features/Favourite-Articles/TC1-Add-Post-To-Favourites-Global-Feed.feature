@@ -4,4 +4,10 @@ Feature: TC1 - Adding blog post to favourites from Global Feed
 @BBase @Favourites
 
 Scenario: Adding blog post to favourites from Global Feed
-Given I log in as 'user_favourites'
+Given I log in as "user_favourites"
+  And I switch to "Global Feed" tab
+ When I add blog post "Qa Test" to favourites its counter should increase
+  And I go to users profile page
+  And I switch to "Favorited Articles" tab
+ Then Favourites list contains
+ | Qa Test |
