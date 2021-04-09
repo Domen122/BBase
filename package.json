@@ -1,0 +1,37 @@
+{
+  "name": "bbase",
+  "version": "1.0.0",
+  "description": "BBase assignment",
+  "main": "conf.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Domen122/BBase.git"
+  },
+  "author": "DM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Domen122/BBase/issues"
+  },
+  "homepage": "https://github.com/Domen122/BBase#readme",
+  "dependencies": {
+    "protractor": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "@cucumber/cucumber": "^7.1.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "core-js": "^3.10.1",
+    "cucumber-html-reporter": "^5.4.0",
+    "eslint": "^7.23.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.23.1",
+    "protractor-cucumber-framework": "^8.0.2"
+  }
+}

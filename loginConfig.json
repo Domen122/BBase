@@ -1,0 +1,13 @@
+{
+    "login-page": {
+        "url": "qa-task.backbasecloud.com",
+        "login": "",
+        "password": ""
+    },
+    "users": {
+        "user_favourites": {
+            "login": "",
+            "password": ""
+        }
+    } 
+}
