@@ -29,6 +29,7 @@ exports.config = {
 
   cucumberOpts: {
     require: './steps/**/*.js',
+    format: ['json:reports/executionReport.json'],
     tags: '@BBase',
   },
 
