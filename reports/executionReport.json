@@ -1,0 +1,129 @@
+[
+  {
+    "description": "  Scenario in which user adds blog post to favourites from the Main page of the BBlog",
+    "elements": [
+      {
+        "description": "",
+        "id": "tc1---adding-blog-post-to-favourites-from-global-feed;adding-blog-post-to-favourites-from-global-feed",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Adding blog post to favourites from Global Feed",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I log in as \"user_favourites\"",
+            "match": {
+              "location": "steps\\mainPageSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2071000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I switch to \"Global Feed\" tab",
+            "match": {
+              "location": "steps\\mainPageSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 916000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I add blog post \"Qa Test\" to favourites its counter should increase",
+            "match": {
+              "location": "steps\\mainPageSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 507000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I go to users profile page",
+            "match": {
+              "location": "steps\\mainPageSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 478000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I switch to \"Favorited Articles\" tab",
+            "match": {
+              "location": "steps\\mainPageSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Qa Test"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Favourites list contains",
+            "match": {
+              "location": "steps\\mainPageSteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BBase",
+            "line": 4
+          },
+          {
+            "name": "@Favourites",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "tc1---adding-blog-post-to-favourites-from-global-feed",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "TC1 - Adding blog post to favourites from Global Feed",
+    "tags": [],
+    "uri": "features\\Favourite-Articles\\TC1-Add-Post-To-Favourites-Global-Feed.feature"
+  }
+]
